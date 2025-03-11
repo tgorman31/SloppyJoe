@@ -20,18 +20,25 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Label x:Name="Item1" Text="Item #1" Grid.Row="0" Grid.Column="0" FontSize="18"/>
-            <Label x:Name="Item2" Text="Item #2" Grid.Row="1" Grid.Column="0" FontSize="18"/>
-            <Label x:Name="Item3" Text="Item #3" Grid.Row="2" Grid.Column="0" FontSize="18"/>
-            <Label x:Name="Item4" Text="Item #4" Grid.Row="3" Grid.Column="0" FontSize="18"/>
-            <Label x:Name="Item5" Text="Item #5" Grid.Row="4" Grid.Column="0" FontSize="18"/>
-            <Label x:Name="Item6" Text="Item #6" Grid.Row="5" Grid.Column="0" FontSize="18"/>
-            <Label x:Name="Price1" Text="Price #1" Grid.Row="0" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
-            <Label x:Name="Price2" Text="Price #2" Grid.Row="1" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
-            <Label x:Name="Price3" Text="Price #3" Grid.Row="2" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
-            <Label x:Name="Price4" Text="Price #4" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
-            <Label x:Name="Price5" Text="Price #5" Grid.Row="4" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
-            <Label x:Name="Price6" Text="Price #6" Grid.Row="5" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+            <Label x:Name="item1" Text="Item #1" Grid.Row="0" Grid.Column="0" FontSize="18"/>
+            <Label x:Name="price1" Text="Price #1" Grid.Row="0" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+            
+            <Label x:Name="item2" Text="Item #2" Grid.Row="1" Grid.Column="0" FontSize="18"/>
+            <Label x:Name="price2" Text="Price #2" Grid.Row="1" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+            
+            <Label x:Name="item3" Text="Item #3" Grid.Row="2" Grid.Column="0" FontSize="18"/>
+            <Label x:Name="price3" Text="Price #3" Grid.Row="2" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+            
+            <Label x:Name="item4" Text="Item #4" Grid.Row="3" Grid.Column="0" FontSize="18"/>
+            <Label x:Name="price4" Text="Price #4" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+            
+            <Label x:Name="item5" Text="Item #5" Grid.Row="4" Grid.Column="0" FontSize="18"/>
+            <Label x:Name="price5" Text="Price #5" Grid.Row="4" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+            
+            <Label x:Name="item6" Text="Item #6" Grid.Row="5" Grid.Column="0" FontSize="18"/>
+            <Label x:Name="price6" Text="Price #6" Grid.Row="5" Grid.Column="1" HorizontalOptions="End" FontSize="18"/>
+
+            <Label x:Name="guacamole" FontSize="18" FontAttributes="Italic" Text="guacamole" Grid.Row="6" Grid.ColumnSpan="2" HorizontalOptions="End" VerticalOptions="End"/>
         </Grid>
     </ScrollView>
 
